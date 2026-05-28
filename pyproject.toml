@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fluke8588a"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{name = "Đorđe Novaković", email = "djordjenovakovic@uns.ac.rs"}]
 description = "A Pythonic interface for Fluke 8588A Reference Multimeter using pyvisa"
 readme = "README.md"
