@@ -10,7 +10,7 @@ The Fluke 8588A is one of the world's most stable reference multimeters. While i
 
 ## ⚠️ Safety Warning
 The Fluke 8588A is a high-precision instrument capable of measuring high voltages (up to 1000V). This software is **unofficial** and interacts directly with the hardware.
-* **Use at your own risk.** * Incorrect automation loops can lead to unexpected instrument behavior.
+* **Use at your own risk.** Incorrect automation loops can lead to unexpected instrument behavior.
 * Always verify that your test setup and input signals do not exceed the instrument's maximum ratings before running automation scripts.
 
 ## 📦 Installation
@@ -52,3 +52,7 @@ fluke8588a_data = fluke8588a.fetch_data()
 1. Python 3.8+
 2. pyvisa-py
 3. A valid VISA backend (pyvisa-py, NI-VISA, or Keysight IO Libraries)
+
+## 📜 Licensing & Attribution
+This project is licensed under the **MIT License**.  
+**Important:** If you use this library, you must keep the original copyright notice. If you modify it, please attribute the original work to [Đorđe Novaković](https://github.com/Hepek93). 
